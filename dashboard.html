@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" type="image/png" href="./assets/img/slack.svg"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            
+            <!-- <p class="header-logo">Logo</p> -->
+            <div class="moble-menu" id="moble-menu">
+                <i class="icon-menu fas fa-bars"></i>
+                
+            </div>
+            <div class="olay"  id="overlay"></div>
+        </div>
+        <div id="nav-left" class="nav-left">
+            <div class="closed" id="closed-menu"><i class="fas fa-times"></i></div>
+            <div class="nav-left-header">
+                <img src="./assets/img/man.png" alt="Avatar" class="avatar">
+                <div class="nav-info-use">
+                    <p>Welcom, BaoBao</p>
+                    <div class="icon-nafi">
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-user"></i>
+                        <i class="fas fa-cog"></i>
+                    </div>
+                </div>                
+            </div>
+            <p class="title-h4">Dashboard</p>
+            <ul id="menu">
+                <li><i class="fas fa-cog"></i><a href="">Overview</a></li>
+                <li><i class="fas fa-cog"></i><a href="">Views</a></li>
+                <li><i class="fas fa-cog"></i><a href="">Traffic</a></li>
+                <li><i class="fas fa-cog"></i><a href="">Geo</a></li>
+                <li><i class="fas fa-cog"></i><a href="">Orders</a></li>
+                <li><i class="fas fa-cog"></i><a href="">News</a></li>
+                <li><i class="fas fa-cog"></i><a href="">General</a></li>
+                <li><i class="fas fa-cog"></i><a href="">History</a></li>
+                <li><i class="fas fa-cog"></i><a href="">Settings</a></li>
+            </ul>
+        </div>
+        <!-- <div id="nav-left-moble" class="nav-moble"  >
+            <div class="closed" id="closed-menu"><i class="fas fa-times"></i></div>
+            <div class="nav-left-header">
+                <img src="./assets/img/man.png" alt="Avatar" class="avatar">
+                <div class="nav-info-use">
+                    <p>Welcom, BaoBao</p>
+                    <div class="icon-nafi">
+                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-user"></i>
+                        <i class="fas fa-cog"></i>
+                    </div>
+                </div>                
+            </div>
+            <p class="title-h4">Dashboard</p>
+            <ul id="menu">
+                <li><i class="fas fa-cog"></i><a href="">Overview</a></li>
+                <li><i class="fas fa-cog"></i><a href="">Views</a></li>
+                <li><i class="fas fa-cog"></i><a href="">Traffic</a></li>
+                <li><i class="fas fa-cog"></i><a href="">Geo</a></li>
+                <li><i class="fas fa-cog"></i><a href="">Orders</a></li>
+                <li><i class="fas fa-cog"></i><a href="">News</a></li>
+                <li><i class="fas fa-cog"></i><a href="">General</a></li>
+                <li><i class="fas fa-cog"></i><a href="">History</a></li>
+                <li><i class="fas fa-cog"></i><a href="">Settings</a></li>
+            </ul>
+        </div> -->
+        <div id="content">
+            
+            <div id="dashboard">
+                <p><i class="fas fa-tachometer-alt"></i>My Dashoboard</p>
+                <div class="dashboard-row margin-bottom">
+                    <div class="dashboard-row-info red">
+                        <div class="dash-info">
+                            <div class="icon-left">
+                                <i class="fas fa-comment"></i>
+                            </div>
+                            <div class="h3-right">
+                                <h3>52</h3>
+                            </div>
+                        </div>
+                        <div class="h4-bottom">
+                            <h4>Messages</h4>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="dashboard-row-info blue">
+                        <div class="dash-info">
+                            <div class="icon-left">
+                                <i class="fas fa-comment"></i>
+                            </div>
+                            <div class="h3-right">
+                                <h3>52</h3>
+                            </div>
+                        </div>
+                        <div class="h4-bottom">
+                            <h4>Messages</h4>
+                        </div>
+                    </div>
+                    <div class="dashboard-row-info green">
+                        <div class="dash-info">
+                            <div class="icon-left">
+                                <i class="fas fa-comment"></i>
+                            </div>
+                            <div class="h3-right">
+                                <h3>52</h3>
+                            </div>
+                        </div>
+                        <div class="h4-bottom">
+                            <h4>Messages</h4>
+                        </div>
+                    </div>
+                    <div class="dashboard-row-info orange">
+                        <div class="dash-info">
+                            <div class="icon-left">
+                                <i class="fas fa-comment"></i>
+                            </div>
+                            <div class="h3-right">
+                                <h3>52</h3>
+                            </div>
+                        </div>
+                        <div class="h4-bottom">
+                            <h4>Messages</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-row margin-bottom">
+                    <div class="dashboard-regions">
+                        <p class="title-h5">Regions</p>
+                        <img src="./assets/img/region.jpg" alt="Google Regional Map" class="regions-img">
+                    </div>
+                    <div class="dashboard-feeds">
+                        <p class="title-h5">Feeds</p>
+                        <table>
+                            <tr>
+                                <td><i class="fas fa-bell"></i></td>
+                                <td>New record, over 90 views.</td>
+                                <td>10 mins</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-bell"></i></td>
+                                <td>New record, over 90 views.</td>
+                                <td>10 mins</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-bell"></i></td>
+                                <td>New record, over 90 views.</td>
+                                <td>10 mins</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-bell"></i></td>
+                                <td>New record, over 90 views.</td>
+                                <td>10 mins</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-bell"></i></td>
+                                <td>New record, over 90 views.</td>
+                                <td>10 mins</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-bell"></i></td>
+                                <td>New record, over 90 views.</td>
+                                <td>10 mins</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-bell"></i></td>
+                                <td>New record, over 90 views.</td>
+                                <td>10 mins</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <hr>
+                <div class="dashboard-row-full">
+                    <div class="general">
+                        <p class="title-h5">General Stats</p>
+                        <p class="list-general">New Visitors</p>
+                        <div class="w3-full ">
+                            <div class="w3-four">
+                                <p>25%</p>
+                            </div>
+
+                        </div>
+                        <p class="list-general">New Users</p>
+                        <div class="w3-full">
+                            <div class="w3-two">
+                                <p>50%</p>
+                            </div>
+                        </div>
+                        <p class="list-general">Bounce Rate</p>
+                        <div class="w3-full">
+                            <div class="w3-third">
+                                <p>75%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="dashboard-row-full">
+                    <div class="countries">
+                        <p class="title-h5">Countries</p>
+                        <table>
+                            <tr>
+                                <td>United States</td>
+                                <td>65%</td>
+                            </tr>
+                            <tr>
+                                <td>United States</td>
+                                <td>65%</td>
+                            </tr>
+                            <tr>
+                                <td>United States</td>
+                                <td>65%</td>
+                            </tr>
+                            <tr>
+                                <td>United States</td>
+                                <td>65%</td>
+                            </tr>
+                            <tr>
+                                <td>United States</td>
+                                <td>65%</td>
+                            </tr>
+                            <tr>
+                                <td>United States</td>
+                                <td>65%</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <a href="#">More Countries<i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="dashboard-row-full-p16">
+                    <p class="title-h5">Recent Users</p>
+                    <ul id="list-users">
+                        <li><img src="./assets/img/avatar2.png" alt=""><span class="user-name">Mike</span></li>
+                        <li><img src="./assets/img/avatar2.png" alt=""><span class="user-name">Mike</span></li>
+                        <li><img src="./assets/img/avatar2.png" alt=""><span class="user-name">Mike</span></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="dashboard-row-full-p16">
+                    <p class="title-h5">Recent Comments</p>
+                    <div class="comments">
+                        <div class="avt-user-comment">
+                        <img src="./assets/img/avatar3.png" alt="">
+                        </div>
+                        <div class="info-user-comment">
+                            <h3>Bo <span>Sep 29, 2014, 9:12 PM</span></h3>
+                            <p class="coneten">Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="comments">
+                        <div class="avt-user-comment">
+                            <img src="./assets/img/avatar1.png" alt="">
+                            </div>
+                            <div class="info-user-comment">
+                                <h3>Jay <span>Sep 29, 2014, 9:12 PM</span></h3>
+                                <p class="coneten">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="dashboard-row-full-p16 w3-black">
+                    <div class="w3-list-full">
+                        <p class="title-h5 border-bottom-green">Recent Users</p>
+                        <p class="w3-list">Language</p>
+                        <p class="w3-list">Language</p>
+                        <p class="w3-list">Language</p>
+                    </div>
+                    <div class="w3-list-full">
+                        <p class="title-h5 border-bottom-red ">Recent Users</p>
+                        <p class="w3-list">Language</p>
+                        <p class="w3-list">Language</p>
+                        <p class="w3-list">Language</p>
+                    </div>
+                    <div class="w3-list-full">
+                        <p class="title-h5 border-bottom-organ ">Recent Users</p>
+                        <p class="w3-list">Language</p>
+                        <p class="w3-list">Language</p>
+                        <p class="w3-list">Language</p>
+                    </div>
+                </div>
+                    
+                
+            </div>
+               
+            <div id="footer">
+                <p class="footer-p">FOOTER</p>
+                <p>Powered by BaoBao</p>
+            </div>
+        </div>
+
+    
+        
+
+    </div>
+<script>
+    var navLeft=document.getElementById('nav-left');
+    console.log(navLeft);
+    var overlay=document.getElementById('overlay');
+    var mobleMenu=document.getElementById('moble-menu');
+    var closedMenu= document.getElementById('closed-menu')
+
+    mobleMenu.onclick= function() {
+        if(navLeft.style.display==='block'){
+            navLeft.style.display='none';
+            overlay.style.display='none';
+        }else{
+            navLeft.style.display='block';
+            overlay.style.display='block';
+        }
+        
+    }
+    closedMenu.onclick=function() {
+        navLeft.style.display='none';
+        overlay.style.display='none';
+        
+    }
+    overlay.onclick= function(){
+        navLeft.style.display='none';
+        overlay.style.display='none';
+    }
+</script>
+
+</body>
+</html>
